@@ -1,5 +1,9 @@
 ---
 clickhouse:
-  hosts:
-    clickhouse-01:
-      ansible_host: <IP_here>
+        hosts:
+                clickhouse-01:
+                        ansible_connection: docker
+vector:
+        hosts:
+          clickhouse-01:
+             ansible_connection: docker

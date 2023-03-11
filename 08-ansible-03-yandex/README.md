@@ -161,7 +161,7 @@ vagrant@vagrant:~/lena/playbook$
 * ![img_4.png](img_4.png)
 
 9. Подготовьте README.md файл по своему playbook. В нём должно быть описано: что делает playbook, какие у него есть параметры и теги.
-
+https://github.com/ElenaSovetova/mnt-homeworks/tree/main/08-ansible-03-yandex/Elena
 10. Готовый playbook выложите в свой репозиторий, поставьте тег `08-ansible-03-yandex` на фиксирующий коммит, в ответ предоставьте ссылку на него.
 https://github.com/ElenaSovetova/mnt-homeworks/tree/main/08-ansible-03-yandex/Elena/playbook
 

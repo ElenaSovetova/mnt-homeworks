@@ -20,7 +20,8 @@
 5. Запустите `ansible-lint site.yml` и исправьте ошибки, если они есть.
 * ![img_3.png](img_3.png)
 6. Попробуйте запустить playbook на этом окружении с флагом `--check`.
-``
+
+```
 vagrant@vagrant:~/lena/playbook$ ansible-playbook site.yml -i inventory/prod.yml --check
 
 PLAY [Install nginx] ***************************************************************************************************************************************
@@ -86,9 +87,10 @@ lighthouse-01              : ok=6    changed=0    unreachable=0    failed=0    s
 vector-01                  : ok=4    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 
 vagrant@vagrant:~/lena/playbook$
-``
+```
 7. Запустите playbook на `prod.yml` окружении с флагом `--diff`. Убедитесь, что изменения на системе произведены.
-``
+
+```
 vagrant@vagrant:~/lena/playbook$ ansible-playbook site.yml -i inventory/prod.yml --diff
 
 PLAY [Install nginx] ***************************************************************************************************************************************
@@ -154,7 +156,7 @@ lighthouse-01              : ok=6    changed=0    unreachable=0    failed=0    s
 vector-01                  : ok=4    changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0
 
 vagrant@vagrant:~/lena/playbook$
-``
+```
 8. Повторно запустите playbook с флагом `--diff` и убедитесь, что playbook идемпотентен.
 * ![img_4.png](img_4.png)
 

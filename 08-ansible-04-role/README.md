@@ -29,10 +29,10 @@
 10. Выложите playbook в репозиторий.
 
 11. В ответ приведите ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.
-https://github.com/ElenaSovetova/lighthouse-role
-https://github.com/ElenaSovetova/lighthouse-role/blob/main/README.md
-https://github.com/ElenaSovetova/vector-role
-https://github.com/ElenaSovetova/vector-role/blob/main/README.md
+* https://github.com/ElenaSovetova/lighthouse-role
+* https://github.com/ElenaSovetova/lighthouse-role/blob/main/README.md
+* https://github.com/ElenaSovetova/vector-role
+* https://github.com/ElenaSovetova/vector-role/blob/main/README.md
 ---
 ```yaml
 vagrant@vagrant:~/lena/playbook$ ansible-playbook -i inventory/prod.yml site.yml

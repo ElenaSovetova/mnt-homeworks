@@ -15,6 +15,7 @@ lighthouse будет установлен в /home/lighthouse
 какие у него есть параметры и теги.
 ------------
 В prod.yml прописываем IP-хостов
+
 ![img.png](img.png)
 
 * Clickhouse и vector будут установлены как службы, lighthouse будет установлен в /home/lighthouse с правами root.

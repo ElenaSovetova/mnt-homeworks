@@ -27,8 +27,12 @@
 8. Выложите все roles в репозитории. Проставьте тэги, используя семантическую нумерацию Добавьте roles в `requirements.yml` в playbook.
 9. Переработайте playbook на использование roles. Не забудьте про зависимости lighthouse и возможности совмещения `roles` с `tasks`.
 10. Выложите playbook в репозиторий.
-11. В ответ приведите ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.
 
+11. В ответ приведите ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.
+https://github.com/ElenaSovetova/lighthouse-role
+https://github.com/ElenaSovetova/lighthouse-role/blob/main/README.md
+https://github.com/ElenaSovetova/vector-role
+https://github.com/ElenaSovetova/vector-role/blob/main/README.md
 ---
 ```yaml
 vagrant@vagrant:~/lena/playbook$ ansible-playbook -i inventory/prod.yml site.yml
